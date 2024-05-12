@@ -1,0 +1,99 @@
+{% extends "base.html" %}
+
+{% block body %}
+<!-- Wrapper -->
+<div id="wrapper">
+	<!-- Header -->
+	<header id="header" class="alt">
+		<a href="/index.html" class="logo"><strong>Charlotte Thomas</strong></a>
+		<nav>
+			<a href="#menu">Menu</a>
+		</nav>
+	</header>
+
+	<!-- Menu -->
+
+	<nav id="menu">
+		<ul class="links">
+			<li><a href="/">Home</a></li>
+			<li><a class="scrolly" href="#main">Main</a></li>
+			<li><a class="scrolly" href="#cv">CV</a></li>
+		</ul>
+	</nav>
+	<!-- Banner -->
+	<section id="banner" class="major">
+		<div class="inner">
+			<header class="major">
+				<h1>{{section.extra.headline}}</h1>
+			</header>
+			<div class="content">
+				{{section.content | safe }}
+			</div>
+			<div style="margin-bottom: 10pt;">
+				<em>
+					This website was created using
+					<a href="https://www.getzola.org/">Zola</a>
+					and using a modified version of an
+					<a href="https://html5up.net/forty">html5up template</a>
+					adapted from
+					<a href="https://astrale-sharp.github.io/">Astrale Cercy's Website</a>
+				</em>
+			</div>
+
+			<div class="">
+				<ul>
+					<li>
+						<a href="/calc">The main article about the rust calculator I made</a>
+					</li>
+					<li>
+						<a href="/baguette">A look on the tastiest programming language ever</a>
+					</li>
+				</ul>
+
+				<ul class="actions">
+					<li><a href="#footer" class="button scrolly">Get in touch</a></li>
+					<li><a href="#one" class="button next scrolly">Take a look</a></li>
+				</ul>
+			</div>
+
+
+		</div>
+	</section>
+
+	{{ super() }}
+
+	{% endblock body %}
+
+
+	{% block main %}
+
+	<section id="one" class="tiles">
+		{% for post in section.pages | sort(attribute="extra.order") %}
+		{% set i = loop.index % 12 %}
+		<article>
+			<span class="image">
+				<img src=images/pic0{{i}}.jpg alt="" />
+			</span>
+			<header class="major">
+				<h3><a href={{post.path}} class="link">{{post.title}}</a></h3>
+				<p>{{post.description}}</p>
+			</header>
+		</article>
+
+		{% endfor %}
+	</section>
+
+
+	<section id="cv" style="margin-top: 50px; margin-left: auto; margin-right: auto; width: 900px">
+
+		<a style="margin-left: 30%; margin-bottom: 20px;" class="button primary" href="cv_fr.pdf">
+			See the french version here</a>
+
+		<article>
+			<object data="cv.pdf" type="application/pdf" width="900px" height="1200px"></object>
+		</article>
+
+	</section>	
+
+	{{ super() }}
+	{% endblock main %}
