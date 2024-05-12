@@ -1,0 +1,54 @@
+<!DOCTYPE HTML>
+<!--
+	Hyperspace by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+{% extends "base.html" %}
+
+{% block body %}
+<div id="wrapper">
+	
+
+	<!-- Header -->
+	<header id="header">
+		<a href="/" class="logo"><strong>Portefolio</strong> <span>Astrale</span></a>
+		<nav>
+			<a href="{{page.path | trim_end_matches(pat="/")}}#menu">Menu</a>
+		</nav>
+	</header>
+
+
+	<nav id="menu">
+		<ul class="links">
+			<li><a href="index.html">Home</a></li>
+			<li><a href="generic.html">Generic</a></li>
+			<li><a href="elements.html">Elements</a></li>
+		</ul>
+	</nav>
+
+</div>
+{{ super() }}
+
+{% endblock body %}
+
+{% block main %}
+<!-- Main -->
+
+<!-- One -->
+<section id="one">
+	<div class="inner">
+		<header class="major">
+			<h1>{{page.title}}</h1>
+		</header>
+		{% if page.extra.image %}
+		<span class="image main"><img src="/{{page.extra.image}}" alt="" /></span>
+		{% endif %}
+
+		{{ page.content | safe }}
+	</div>
+</section>
+
+	{{ super() }}
+
+{% endblock main %}
