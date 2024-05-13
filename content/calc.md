@@ -6,7 +6,7 @@ order = 0
 image = "assets/calc.gif"
 +++
 
-The above image shows calc, it have its own website
+The above image shows calc, it has its own website
 [here](https://calc.nwa2coco.fr) and I am now working at the symbolic
 computation.
 
