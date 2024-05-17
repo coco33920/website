@@ -47,11 +47,12 @@ ol, ul {
 	height: 1200px;
   }
 }
-@media screen and (max-width : 950px){
+@media screen and (max-width : 900px){
  .change {
-	 width: 70%;
-	 height: 600px;
-  }
+	 width: 0px;
+	 height: 0px;
+	visibility: hidden; 
+ }
 }
 
 blockquote, q {
