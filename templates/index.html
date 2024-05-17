@@ -73,16 +73,13 @@
 	</section>
 
 
-	<section id="cv" style="margin-top: 50px; margin-left: auto; margin-right: auto; width: 900px">
-
-		<a style="margin-left: 30%; margin-bottom: 20px;" class="button primary" href="cv_fr.pdf">
-			See the french version here</a>
-
+	<section id="cv" style="margin-top: 50px; margin-left: auto; margin-right: auto;">
+		<a class="primary button" style="margin-bottom:30px; margin-left: 20%; margin-right: 20%; width:60%;" href="/cv_fr.pdf">French version</a>
+		<center>
 		<article>
-			<object data="cv.pdf" type="application/pdf" width="900px" height="1200px"></object>
+			<object data="cv.pdf" type="application/pdf" class="change"></object>
 		</article>
-
+		</center>
 	</section>	
-
 	{{ super() }}
 	{% endblock main %}

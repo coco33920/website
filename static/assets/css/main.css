@@ -37,6 +37,23 @@ ol, ul {
 	list-style: none;
 }
 
+.change {
+	font: inherit;
+}
+
+@media screen and (max-width : 1920px){
+  .change {
+	width: 900px;
+	height: 1200px;
+  }
+}
+@media screen and (max-width : 950px){
+ .change {
+	 width: 450px;
+	 height: 600px;
+  }
+}
+
 blockquote, q {
 	quotes: none;
 }
