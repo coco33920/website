@@ -12,5 +12,19 @@ build_search_index = true
 # Theme can be customised by setting the `highlight_theme` variable to a theme supported by Zola
 highlight_code = true
 
+[languages.fr]
+generate_feed = true
+build_search_index = true
+taxonomies = [
+    {name = "auteurs"},
+    {name = "tags"},
+]
+
+[languages.fr.translations]
+summary = "Ma page"
+
+[translations]
+summary = "My webpage"
+
 [extra]
 # Put all your custom variables here
