@@ -2,7 +2,7 @@
 title = "Baguette Sharp"
 description = "The tastiest exotic programming language"
 [extra]
-order = 1
+order = 2
 image = "assets/baguette.gif"
 +++
 

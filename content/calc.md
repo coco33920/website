@@ -2,7 +2,7 @@
 title = "Calc"
 description = "A minimalistic calculator built in Rust"
 [extra]
-order = 0
+order = 1
 image = "assets/calc.gif"
 +++
 
