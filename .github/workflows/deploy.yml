@@ -1,0 +1,40 @@
+{
+    "name": "Deploy",
+    "on": {
+        "push": {
+            "branches": ["mistress"],
+        },
+    },
+    "jobs": {
+        "deploy": {
+            "runs-on": "ubuntu-latest",
+            "steps": [
+                { "uses": "actions/checkout@v3", "with": { "submodules": true, }, },
+                { "name": "Install Rust", "uses": "dtolnay/rust-toolchain@stable", },
+                {
+                    "name": "Cache Rust",
+                    "uses": "Swatinem/rust-cache@v2",
+                    "with": { "workspaces": "builder" },
+                },
+                {
+                    "name": "Install npm",
+                    "uses": "actions/setup-node@v3",
+                    "with": {
+                        "node-version": "latest",
+                        "cache": "npm",
+                        "cache-dependency-path": "builder/js/package-lock.json",
+                    },
+                },
+                { "name": "Build", "run": "./prod-build", },
+                {
+                    "name": "Deploy",
+                    "uses": "JamesIves/github-pages-deploy-action@v4.4.1",
+                    "with": {
+                        "branch": "gh-pages",
+                        "folder": "dist"
+                    },
+                },
+            ],
+        },
+    },
+}

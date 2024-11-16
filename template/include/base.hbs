@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<meta name="color-scheme" content="dark light">
+		<meta name="theme-color" content="#ffffff" media="(prefers-color-scheme:light)">
+		<meta name="theme-color" content="#000000" media="(prefers-color-scheme:dark)">
+
+		<meta property="og:site_name" content="Charlotte Thomas">
+		{{#if icons}}
+			<link rel="icon" href="/{{icons.favicon}}">
+			<link rel="apple-touch-icon" href="/{{icons.apple_touch_icon}}">
+		{{else}}
+			<link rel="icon" href="data:,">
+		{{/if}}
+
+		<link rel="stylesheet" href="/{{common_css}}">
+
+		{{#if live_reload}}
+		<script>
+			const params = new URLSearchParams();
+			function dependency(path) {
+				if (!path.startsWith("/")) {
+					const base = location.pathname.slice(0, location.pathname.lastIndexOf("/"));
+					path = base + "/" + path;
+				}
+				params.append("path", path);
+			}
+			dependency(location.pathname);
+			{{#if icons}}dependency("/{{icons.favicon}}");{{/if}}
+			dependency("/{{common_css}}");
+		</script>
+		{{/if}}
+
+		{{> head}}
+	</head>
+	<body>
+		<header>
+			<a href="/" class="name">Charlotte Thomas</a>
+			<nav>
+				<a href="/blog/">Blog</a>
+			</nav>
+		</header>
+		<main>
+{{> body}}
+		</main>
+		{{#if live_reload}}
+		<script>
+			const source = new EventSource(`/watch?${params}`);
+			source.addEventListener("message", () => location.reload());
+		</script>
+		{{/if}}
+		<footer class="center">
+		<p>
+		Kind regards to Sabrina Jewson for the templates and static generator, go see her <a href="https://sabrinajewson.org">website</a>
+		</p>
+		</footer>
+	</body>
+</html>
