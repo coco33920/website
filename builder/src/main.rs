@@ -19,6 +19,7 @@ mod blog;
 mod common_css;
 mod icons;
 mod index;
+mod language;
 mod not_found;
 mod raw;
 mod reviews;
@@ -81,6 +82,8 @@ fn main() -> anyhow::Result<()> {
         icons: !args.no_icons,
         live_reload: args.serve_port.is_some(),
     };
+
+    let languages = language::load_config();
 
     let bump = Bump::new();
     let asset = asset(&bump, &args.output, asset::Dynamic::new(&config));
