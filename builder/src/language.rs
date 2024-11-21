@@ -18,7 +18,7 @@ impl Default for Language {
     fn default() -> Self {
         Self {
             key: "en".to_string(),
-            template: "[A-Za-z]+\\.fr\\.md".to_string(),
+            template: "[A-Za-z]+\\.md".to_string(),
         }
     }
 }
