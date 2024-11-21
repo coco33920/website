@@ -85,6 +85,8 @@ fn main() -> anyhow::Result<()> {
 
     let languages = language::load_config();
 
+    languages.supported_languages.iter().for_each(|v| log::info!("Language loaded: {} with template {} ",v.key,v.template));
+
     let bump = Bump::new();
     let asset = asset(&bump, &args.output, asset::Dynamic::new(&config));
     asset.generate();

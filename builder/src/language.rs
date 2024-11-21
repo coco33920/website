@@ -5,13 +5,13 @@ use serde::{Deserialize, Serialize};
 
 #[derive(Clone, Deserialize, Serialize)]
 pub struct Language {
-    key: String,
-    template: String,
+    pub key: String,
+    pub template: String,
 }
 
 #[derive(Clone, Serialize, Deserialize)]
 pub struct LanguageConfig {
-    supported_language: Vec<Language>,
+    pub supported_languages: Vec<Language>,
 }
 
 impl Default for Language {
@@ -38,12 +38,13 @@ impl Language {
 impl Default for LanguageConfig {
     fn default() -> Self {
         Self {
-            supported_language: vec![Language::default()],
+            supported_languages: vec![Language::default()],
         }
     }
 }
 
 pub fn load_config() -> LanguageConfig {
     let content: String = fs::read_to_string("languages.toml").expect("Language file absent");
+    println!("{content}");
     toml::from_str(&content).unwrap_or_default()
 }
