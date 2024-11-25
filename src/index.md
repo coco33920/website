@@ -85,7 +85,8 @@ The source code (Typst file, Typst template, and man pages) of my CV can be foun
 
 ## Font {#font}
 
-This website uses the [Monaspace Neon](https://monaspace.githubnext.com) font.
+This website uses the [_Monaspace Neon_](https://monaspace.githubnext.com) font
+for text and _Monaspace Xenon_ for the code.
 
 I may change it if I want to, if you have any suggestions for fonts send me an email at either of these adresses. 
  `web [at] me.charlotte-thomas.me` 
