@@ -78,10 +78,21 @@ I'll try to write some more there.
 You can find my CV on the following format here:
 - [French PDF](static/cv_fr.pdf),
 - [English PDF](static/cv_en.pdf),
-- _Comming Soon_ [French Man Page](static/cv_fr.man),
-- _Comming Soon_ [English Man Page](static/cv_en.typ).
+- [French Man Page](static/cv_fr.man),
+- [English Man Page](static/cv_en.typ).
 
 The source code (Typst file, Typst template, and man pages) of my CV can be found on the [GitHub repo](https://github.com/vanilla-extracts/cv).
+
+To open the man page just do (depending on the language):
+
+```sh 
+curl https://www.charlotte-thomas.me/static/cv_fr.man | man -l -
+```
+or 
+```sh 
+curl https://www.charlotte-thomas.me/static/cv_en.man | man -l -
+```
+
 
 ## Font {#font}
 
