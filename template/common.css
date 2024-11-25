@@ -18,7 +18,7 @@ code {
 
 	font-family: "Monaspace Xenon", sans-serif;
 	opacity: 0.8;
-	flex-flow: nowrap;
+	flex-flow: wrap;
 	display: flex;
 	text-indent: 10pt;
 }
