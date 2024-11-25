@@ -55,23 +55,29 @@ I'll try to write some more there.
 
 ### Education {#education}
 
-- Bachelor of Science, major in Computer Science, minor in system security and security of communication protocols, University of #Rennes, France*.
+- Bachelor of Science, major in Computer Science, minor in system security and security of communication protocols, University of *Rennes, France*.
 
-- Prépa (a french _cram school_), Lycée Michel Montaigne, *Bordeaux, France*
+- Prépa (a french _cram school_), Lycée Michel Montaigne, *Bordeaux, France*.
 
 ### Academia {#academia}
 
-- Research internship, _Inria Rennes, EPICURE_, morphological recognition of plants 
+- Research internship, _Inria Rennes, EPICURE_, morphological recognition of plants. 
 
-- Research internship, _Inria Rennes, PACAP_, FDM 3D printing optimisation
+- Research internship, _Inria Rennes, PACAP_, FDM 3D printing optimisation.
+
+- Radio Talk on the importance of free software in universities and in my life [here (in french)](https://cause-commune.fm/podcast/libre-a-vous-187/).
+
+- Talk on joke programming language for fun (BaguetteSharp).
+
+- Flash Talk on joke programming language for academic usage and secondary education (BaguetteSharp).
 
 You can find my CV on the following format here:
-- [French PDF](static/cv_fr.pdf)
-- [English PDF](static/cv_en.pdf)
-- _Comming Soon_ [French Man Page](static/cv_fr.man)
-- _Comming Soon_ [English Man Page](static/cv_en.typ)
+- [French PDF](static/cv_fr.pdf),
+- [English PDF](static/cv_en.pdf),
+- _Comming Soon_ [French Man Page](static/cv_fr.man),
+- _Comming Soon_ [English Man Page](static/cv_en.typ).
 
-The source code (Typst file, Typst template, and man pages) of my CV can be found on the [GitHub repo](https://github.com/vanilla-extracts/cv)
+The source code (Typst file, Typst template, and man pages) of my CV can be found on the [GitHub repo](https://github.com/vanilla-extracts/cv).
 
 ## Font {#font}
 
@@ -83,7 +89,7 @@ I may change it if I want to, if you have any suggestions for fonts send me an e
 I am using she/they pronouns and feminine accords. 
 
 You can find my [writing website](https://writing.charlotte-thomas.me) here,
-it's the blog and central place for all writing (novel and short stories)
+it's the blog and central place for all writing (novel and short stories).
 
 You can find me there:
 - [GitHub, as vanilla-extracts](https://github.com/vanilla-extracts)
