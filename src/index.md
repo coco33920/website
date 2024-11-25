@@ -67,7 +67,8 @@ This website uses the [Monaspace Neon](https://monaspace.githubnext.com) font.
 ## About Me { #about-me }
 I am using she/they pronouns and feminine accords. 
 
-You can find my [writing website](https://writing.charlotte-thomas.me)
+You can find my [writing website](https://writing.charlotte-thomas.me) here,
+it's the blog and central place for all writing (novel and short stories)
 
 You can find me there:
 - [GitHub, as vanilla-extracts](https://github.com/vanilla-extracts)
