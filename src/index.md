@@ -27,7 +27,9 @@ If you need help from a queer person, **please**, contact me you can see
 [here](#about-me) how to contact me. Especially if you're in France, I can see where I
 can help you, do not hesitate to reach out, I answer pretty quickly.
 
-Contact me with this topic email, I will be able to answer quicker like that `queer` or `help` ` [at] me.charlotte-thomas.me` or at `me+queer` or `me+help` ` [at] charlotte-thomas.me`
+Contact me with either of these topic emails, I will be able to answer quicker
+`{queer|help} [at] me.charlotte-thomas.me`
+`me+{queer|help} [at] charlotte-thomas.me`
 
 ### Writing {#writing}
 
@@ -85,7 +87,9 @@ The source code (Typst file, Typst template, and man pages) of my CV can be foun
 
 This website uses the [Monaspace Neon](https://monaspace.githubnext.com) font.
 
-I may change it if I want to, if you have any suggestions for fonts send me an email to `web [at] me.charlotte-thomas.me` or `me+web [at] charlotte-thomas.me`.
+I may change it if I want to, if you have any suggestions for fonts send me an email at either of these adresses. 
+ `web [at] me.charlotte-thomas.me` 
+ `me+web [at] charlotte-thomas.me`
 
 ## About Me { #about-me }
 I am using she/they pronouns and feminine accords. 
@@ -94,11 +98,11 @@ You can find my [writing website](https://writing.charlotte-thomas.me) here,
 it's the blog and central place for all writing (novel and short stories).
 
 You can find me there:
-- [GitHub, as vanilla-extracts](https://github.com/vanilla-extracts)
-- [CodeBerg as vanilla-extracts](https://codeberg.org/vanilla-extracts)
-- Discord, as `vanilla_extracts`
-- Email regarding my writing, at `gc [at] charlotte-thomas.me`
-- General Email, at `me [at] charlotte-thomas.me`
-- Topic email at `topic [at] me.charlotte-thomas.me` or `me+topic [at] charlotte-thomas.me`
-- Threads/IG, as `vanilla.extracts`
+- [GitHub, as _vanilla-extracts_](https://github.com/vanilla-extracts)
+- [CodeBerg as _vanilla-extracts_](https://codeberg.org/vanilla-extracts)
+- Discord, as _vanilla_extracts_
+- Email regarding my writing, `gc [at] charlotte-thomas.me`
+- General Email, `me [at] charlotte-thomas.me`
+- Topic email, `{topic} [at] me.charlotte-thomas.me` or `me+{topic} [at] charlotte-thomas.me`
+- Threads/IG, as _vanilla.extracts_
 - [Ko-Fi as vanilla_extracts](https://ko-fi.com/vanilla_extracts)
