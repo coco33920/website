@@ -51,17 +51,17 @@ I'll try to write some more there.
 
 ## CV {#cv}
 
-### Work experience {#work}
+### I. Work experience {#work}
 
 - DevOps Engineer, general IT Specialist, Civil Servant. *Rennes, France*.
 
-### Education {#education}
+### II. Education {#education}
 
 - Bachelor of Science, major in Computer Science, minor in system security and security of communication protocols, University of *Rennes, France*.
 
 - Prépa (a french _cram school_), Lycée Michel Montaigne, *Bordeaux, France*.
 
-### Academia {#academia}
+### III. Academia {#academia}
 
 - Research internship, _Inria Rennes, EPICURE_, morphological recognition of plants. 
 
@@ -73,7 +73,7 @@ I'll try to write some more there.
 
 - Flash Talk on joke programming language for academic usage and secondary education (BaguetteSharp).
 
-### Full CV {#fcv}
+### A. Full CV {#fcv}
 
 You can find my CV on the following format here:
 - [French PDF](static/cv_fr.pdf),
