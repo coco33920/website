@@ -1,9 +1,16 @@
+@font-face {
+	font-family: "Monaspace Neon";
+	src: local("Monaspace Neon"),
+	     url("fonts/MonaspaceNeon-Regular.otf") format("opentype");
+
+}
+
 * {
 	box-sizing: border-box;
 }
 
 body {
-	font-family: sans-serif;
+	font-family: "Monaspace Neon", sans-serif;
 	font-size: 16px;
 	margin: 0;
 	line-height: 1.75;

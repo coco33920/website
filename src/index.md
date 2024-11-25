@@ -60,6 +60,10 @@ post things I like, very-rarely.
 You can find my [cv (fr)](static/cv_fr.pdf) and my [cv (en)](static/cv_en.pdf) on this
 website.
 
+## Font {#font}
+
+This website uses the [Monaspace Neon](https://monaspace.githubnext.com) font.
+
 ## About Me { #about-me }
 I am using she/they pronouns and feminine accords. 
 
