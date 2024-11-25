@@ -27,7 +27,7 @@ If you need help from a queer person, **please**, contact me you can see
 [here](#about-me) how to contact me. Especially if you're in France, I can see where I
 can help you, do not hesitate to reach out, I answer pretty quickly.
 
-Contact me with this topic email, I will be able to answer quicker like that `queer` or `help` `[at] me.charlotte-thomas.me` or at `me+queer` or `me+help` `[at] charlotte-thomas.me`
+Contact me with this topic email, I will be able to answer quicker like that `queer` or `help` ` [at] me.charlotte-thomas.me` or at `me+queer` or `me+help` ` [at] charlotte-thomas.me`
 
 ### Writing {#writing}
 
@@ -70,6 +70,8 @@ I'll try to write some more there.
 - Talk on joke programming language for fun (BaguetteSharp).
 
 - Flash Talk on joke programming language for academic usage and secondary education (BaguetteSharp).
+
+### Full CV 
 
 You can find my CV on the following format here:
 - [French PDF](static/cv_fr.pdf),
