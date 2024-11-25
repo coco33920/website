@@ -27,6 +27,8 @@ If you need help from a queer person, **please**, contact me you can see
 [here](#about-me) how to contact me. Especially if you're in France, I can see where I
 can help you, do not hesitate to reach out, I answer pretty quickly.
 
+Contact me with this topic email, I will be able to answer quicker like that `queer` or `help` `[at] me.charlotte-thomas.me` or at `me+queer` or `me+help` `[at] charlotte-thomas.me`
+
 ### Writing {#writing}
 
 I am also a [_writer_](https://writing.charlotte-thomas.me). I wrote a short-story, and I used to write a novel.
@@ -43,13 +45,19 @@ development of the novel.
 You can find bits of my life in the [blog](blog/) section of this website. I
 post things I like, very-rarely. 
 
+I'll try to write some more there.
+
 ## CV {#cv}
+
+### Work experience {#work}
+
+- DevOps Engineer, general IT Specialist, Civil Servant. *Rennes, France*.
 
 ### Education {#education}
 
-- Bachelor of Science, major in Computer Science, minor in system security and security of communication protocols, University of Rennes, France
+- Bachelor of Science, major in Computer Science, minor in system security and security of communication protocols, University of #Rennes, France*.
 
-- Prépa (a french _cram school_), Lycée Michel Montaigne, Bordeaux, France
+- Prépa (a french _cram school_), Lycée Michel Montaigne, *Bordeaux, France*
 
 ### Academia {#academia}
 
@@ -57,12 +65,19 @@ post things I like, very-rarely.
 
 - Research internship, _Inria Rennes, PACAP_, FDM 3D printing optimisation
 
-You can find my [cv (fr)](static/cv_fr.pdf) and my [cv (en)](static/cv_en.pdf) on this
-website.
+You can find my CV on the following format here:
+- [French PDF](static/cv_fr.pdf)
+- [English PDF](static/cv_en.pdf)
+- _Comming Soon_ [French Man Page](static/cv_fr.man)
+- _Comming Soon_ [English Man Page](static/cv_en.typ)
+
+The source code (Typst file, Typst template, and man pages) of my CV can be found on the [GitHub repo](https://github.com/vanilla-extracts/cv)
 
 ## Font {#font}
 
 This website uses the [Monaspace Neon](https://monaspace.githubnext.com) font.
+
+I may change it if I want to, if you have any suggestions for fonts send me an email to `web [at] me.charlotte-thomas.me` or `me+web [at] charlotte-thomas.me`.
 
 ## About Me { #about-me }
 I am using she/they pronouns and feminine accords. 
@@ -74,7 +89,8 @@ You can find me there:
 - [GitHub, as vanilla-extracts](https://github.com/vanilla-extracts)
 - [CodeBerg as vanilla-extracts](https://codeberg.org/vanilla-extracts)
 - Discord, as `vanilla_extracts`
-- Email regarding my writing, at `gc [at] charlotte-thomas [dot] me`
-- General Email, at `me [at] charlotte-thomas [dot] me`
+- Email regarding my writing, at `gc [at] charlotte-thomas.me`
+- General Email, at `me [at] charlotte-thomas.me`
+- Topic email at `topic [at] me.charlotte-thomas.me` or `me+topic [at] charlotte-thomas.me`
 - Threads/IG, as `vanilla.extracts`
 - [Ko-Fi as vanilla_extracts](https://ko-fi.com/vanilla_extracts)
