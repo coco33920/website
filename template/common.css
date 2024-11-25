@@ -2,11 +2,18 @@
 	font-family: "Monaspace Neon";
 	src: local("Monaspace Neon"),
 	     url("fonts/MonaspaceNeon-Regular.otf") format("opentype");
-
 }
 
 * {
 	box-sizing: border-box;
+}
+
+code {
+
+ font-family: sans-serif;
+ font-size: 14px;
+ display: box
+
 }
 
 body {
