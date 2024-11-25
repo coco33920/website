@@ -79,7 +79,7 @@ You can find my CV on the following format here:
 - [French PDF](static/cv_fr.pdf),
 - [English PDF](static/cv_en.pdf),
 - [French Man Page](static/cv_fr.man),
-- [English Man Page](static/cv_en.typ).
+- [English Man Page](static/cv_en.man).
 
 The source code (Typst file, Typst template, and man pages) of my CV can be found on the [GitHub repo](https://github.com/vanilla-extracts/cv).
 
