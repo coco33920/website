@@ -106,7 +106,7 @@ it's the blog and central place for all writing (novel and short stories).
 
 You can find me there:
 - [GitHub, as _vanilla-extracts_](https://github.com/vanilla-extracts)
-- [CodeBerg as _vanilla-extracts_](https://codeberg.org/vanilla-extracts)
+- [Codeberg as _vanilla-extracts_](https://codeberg.org/vanilla-extracts)
 - Discord, as _vanilla_extracts_
 - Email regarding my writing, `gc [at] charlotte-thomas.me`
 - General Email, `me [at] charlotte-thomas.me`
