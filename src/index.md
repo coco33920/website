@@ -2,26 +2,27 @@
 
 ### Bio {#bio}
 
-Hi! My name is Charlotte Thomas, I'm a 22 y.o French Developer, System admin,
-and general IT Specialist. I have a good job and I like it so if you're a
+Hi! My name is Charlotte Thomas, I'm a 22 y.o French Developer, System Admin
+(Linux Expert), and general IT Specialist. I have a good job and I like it so if you're a
 recruiter you do not need to send me an email.
 
 Same if you're looking for a developer to commission please search someone else
-I'm not your gal.
+I'm not your gal. But I know some people so you can contact me at 
+`me+dev [at] charlotte-thomas.me`
 
-I love a variety of language, my languages of choice nowadays are _Rust_ and
-_OCaml_. 
+I love a variety of language, my languages of choice nowadays are **_Rust_** and
+_**OCaml**_. Although I do like a plethora of other languages. 
 
 My favourite projects are [Calc](https://codeberg.org/vanilla-extract/calc) and
 [BaguetteSharp](https://github.com/vanilla-extract/ocaml-baguettesharp-interpreter).
 
 I like writing parsers, interpreters, and compilers. I settled into a basic
-technique of _pratt-parsing_ from _Calc_ and newer projects.
+technique of _pratt-parsing_ from _Calc_ and onwards.
 
 ### Queer {#queer}
 
-I am a queer woman. I am (not-exaustively), intersex, lesbian, asexual,
-demiromantic, and polyamorous.
+I am a queer woman. I am (not-exaustively) lesbian, asexual, and
+demiromantic.
 
 If you need help from a queer person, **please**, contact me you can see
 [here](#about-me) how to contact me. Especially if you're in France, I can see where I
@@ -42,13 +43,6 @@ This new novel is _Galactic Consequences_ you can find the [_writing
 blog_](https://writing.charlotte-thomas.me/blog/) here where I post the
 development of the novel. 
 
-### General blog {#blog}
-
-You can find bits of my life in the [blog](blog/) section of this website. I
-post things I like, very-rarely. 
-
-I'll try to write some more there.
-
 ## CV {#cv}
 
 ### I. Work experience {#work}
@@ -57,7 +51,7 @@ I'll try to write some more there.
 
 ### II. Education {#education}
 
-- Bachelor of Science, major in Computer Science, minor in system security and security of communication protocols, University of *Rennes, France*.
+- Bachelor of Science, major in Computer Science, minor in system security and security of communication protocols, University of Rennes, *France*.
 
 - Prépa (a french _cram school_), Lycée Michel Montaigne, *Bordeaux, France*.
 
